@@ -22,3 +22,67 @@ header button span{
     border-radius: 5px;
 }
 
+
+/* Start progress bar */
+
+.card-body .container{
+    display: none;
+}
+
+.html {
+    animation: html forwards 1s;
+    animation-timing-function: ease-in;
+}
+.css {
+    animation: css forwards 1s;
+    animation-timing-function: ease-in;
+}
+.bootstrap {
+    animation: bootstrap forwards 1s;
+    animation-timing-function: ease-in;
+}
+.js {
+    animation: js forwards 1s;
+    animation-timing-function: ease-in;
+}
+
+
+
+@keyframes html {
+    0%{
+        background-color: red;
+    }
+    100%{
+        width: 98%;
+        background-color: green;
+    }
+}
+@keyframes css {
+    0%{
+        background-color: red;
+    }
+    100%{
+        width: 90%;
+        background-color: green;
+    }
+}
+@keyframes bootstrap {
+    0%{
+        background-color: red;
+    }
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+}
+@keyframes js {
+    0%{
+        background-color: red;
+    }
+    100%{
+        width: 65%;
+        background-color: yellowgreen;
+    }
+}
+
+/* End progress bar */
