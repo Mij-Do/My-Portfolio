@@ -7,9 +7,6 @@ document.addEventListener('scroll', function() {
 
     if (scrollTop + windowHeight > progressContainerTop) {
         progressContainer.style.display = 'block';
-
-        // Simulate progress (you can update this based on actual progress if needed)
-        let progress = (scrollTop / (document.documentElement.scrollHeight - windowHeight)) * 0;
         progressBar.style.width = progress + '%';
     }
 });

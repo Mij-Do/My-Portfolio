@@ -8,11 +8,7 @@
     background-color: grey;
     color: white;
 }
-.image {
-    width: 70%;
-    height: auto;
-    transition: opacity 0.5s;  /* the effect time */
-}
+/* Start Nav */
 
 header .navbar{
     background-color: black;
@@ -22,6 +18,13 @@ header button span{
     border-radius: 5px;
 }
 
+/* End Nav */
+
+.image {
+    width: 70%;
+    height: auto;
+    transition: opacity 0.5s;  /* the effect time */
+}
 
 /* Start progress bar */
 
