@@ -89,3 +89,28 @@ header button span{
 }
 
 /* End progress bar */
+
+
+/* Arrow To Top */
+
+.scrolimg{
+    width: 88px;
+    height: 79px;
+}
+.scroll{
+    width: 100px;
+    height: 80px;
+    transition: 0.2s;
+    z-index: 99;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    
+}
+.scroll:hover{
+    transform: scale(1.2)
+    
+}
+
+
+/* Arrow To Top */
