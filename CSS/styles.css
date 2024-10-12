@@ -1,8 +1,19 @@
-*{
+/* *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    overflow-x: hidden; /* Prevent horizontal scroll */
+  }
 
 ::selection{
     background-color: grey;
@@ -57,7 +68,7 @@ header button span{
     }
     100%{
         width: 98%;
-        background-color: green;
+        background-color: yellow;
     }
 }
 @keyframes css {
@@ -66,7 +77,7 @@ header button span{
     }
     100%{
         width: 90%;
-        background-color: green;
+        background-color: blue;
     }
 }
 @keyframes bootstrap {
@@ -75,23 +86,26 @@ header button span{
     }
     100%{
         width: 100%;
-        background-color: green;
+        background-color: purple;
     }
 }
 @keyframes js {
     0%{
         background-color: red;
     }
-    100%{
-        width: 65%;
+    79%{
         background-color: yellowgreen;
+    }
+    100%{
+        width: 80%;
+        background-color: orange;
     }
 }
 
 /* End progress bar */
 
 
-/* Arrow To Top */
+/* Start Arrow To Top */
 
 .scrolimg{
     width: 88px;
@@ -113,4 +127,78 @@ header button span{
 }
 
 
-/* Arrow To Top */
+/* End Arrow To Top */
+
+
+
+
+
+
+
+
+/* Start Hero Styles */
+
+.hero {
+    position: relative;
+    height: 80vh; /* Smaller height to fit within the page */
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('https://source.unsplash.com/random/1600x900') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .hero-content {
+    z-index: 2;
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-buttons .btn {
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .btn-secondary {
+    background-color: #2ecc71;
+    color: white;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Main Content Section */
+  #main-content {
+    padding: 50px;
+    background-color: #fff;
+  }
+  
+  #main-content h2 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+  }

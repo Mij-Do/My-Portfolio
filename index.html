@@ -26,15 +26,16 @@
                             <a class="nav-link text-success" href="#about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-success" href="#">Skills</a>
+                            <a class="nav-link text-success" href="#portfolio">My Portfolio</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-success" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Contact-Us
                             </a>
                             <ul class="dropdown-menu bg-dark">
-                                <li><a class="dropdown-item text-success" href="#">WhatsApp</a></li>
-                                <li><a class="dropdown-item text-success" href="#">Linked-In</a></li>
+                                <li><a class="dropdown-item text-success" href="https://wa.me/+201146615338" target="_blank">WhatsApp</a></li>
+                                <li><a class="dropdown-item text-success" href="https://www.linkedin.com/in/ahmed-mijdo-samir/" target="_blank">Linked-In</a></li>
+                                <li><a class="dropdown-item text-success" href="mailto:ahmedmijdo2@gmail.com" target="_blank">Send Email</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -42,14 +43,29 @@
                 </div>
             </div>
         </nav>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    I am <span class="typing-text"></span>
+                </h1>
+                <p class="hero-subtitle">Frontend Developer | Lifelong Learner | Dreamer</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-success">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
         <div class="text-center" id="home">
-            <img src="./Images/339374.png" class="image" id="myImage" alt="Sample Image">
+            <img loading="lazy" src="./Images/339374.png" class="image" id="myImage" alt="Sample Image">
         </div>
     </header>
     <!-- End nav -->
     <!-- Start main -->
     <main>
         <div class="container">
+            
+            
             <!-- Start Apout -->
             <section class="about m-4">
                 <div class="container-fluid">
@@ -57,7 +73,7 @@
                     <div class="card mb-3 bg-secondary text-light">
                         <div class="row g-0">
                             <div class="col-md-4 d-flex align-items-center">
-                                <img src="./Images/me.jpg" class="img-fluid rounded-start" alt="Me">
+                                <img src="./Images/myLinkedInProfile.jpg" loading="lazy" class="img-fluid rounded-start" alt="Me">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
@@ -82,7 +98,7 @@
                                         </div>
                                         <h6>JavaScript</h6>
                                         <div class="progress mb-3">
-                                            <div class="progress-bar progress-bar-striped js" id="progressBar" role="progressbar" style="width: 0%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">65%</div>
+                                            <div class="progress-bar progress-bar-striped js" id="progressBar" role="progressbar" style="width: 0%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
                                         </div>
                                     </div>
                                 </div>
@@ -93,9 +109,9 @@
             </section>
             <!-- End Apout -->
             <!-- Start My Portfolio -->
-            <section class="myPortfolio m-4">
+            <section class="myPortfolio m-4" id="portfolio">
                 <div class="container">
-                    <h2 class="display-4 m-4 text-center" id="about">My Portfolio</h2>
+                    <h2 class="display-4 m-4 text-center">My Portfolio</h2>
                     <div id="carouselExampleCaptions" class="carousel slide">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
