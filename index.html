@@ -15,7 +15,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand text-light" href="#">myPortfolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon bg-success"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -25,12 +25,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" href="#about">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#Projects">My Projects</a>
-                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Contact-Us
+                                Contact-Me
                             </a>
                             <ul class="dropdown-menu bg-dark">
                                 <li><a class="dropdown-item text-light" href="https://wa.me/+201146615338" target="_blank">WhatsApp</a></li>
@@ -51,7 +48,7 @@
                 </h1>
                 <p class="hero-subtitle">Frontend Developer <br>HTML&CSS | BootStrap | JavaScript</p>
                 <div class="hero-buttons">
-                    <a href="#portfolio" class="btn btn-success">View Projects</a>
+                    <a href="#Projects" class="btn btn-success">View Projects</a>
                     <a href="#contact" class="btn btn-secondary">Contact Me</a>
                 </div>
             </div>
@@ -76,12 +73,18 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Hi, I’m Ahmed Samir, </h5>
-                                    <p class="card-text">
-                                        currently studying at Minia University. My journey into software development started with a curiosity that turned into a passion through self-learning. Along the way, I’ve not only built technical skills but also discovered a love for solving real-world problems through code.
+                                    <p class="card-text text-secondary" style="font-size: 12px;">Egypt,Qena | ahmedmijdo@gmail.com</p>
+                                    <p class="card-text mt-4">
+                                        currently studying at Minia University. <br> 
+                                        My journey into software development started with a curiosity that turned into a passion through self-learning. <br>
+                                        Along the way, I’ve not only built technical skills but also discovered a love for solving real-world problems through code. <br>
 
-                                        I’m focused on front-end development, and I enjoy working with HTML, CSS, JavaScript, and Bootstrap to create clean, user-friendly websites. But more than just writing code, I’m driven by the excitement of learning something new and continuously improving. Every project is a chance to grow, and I’m always open to challenges that push my abilities further.
+                                        I’m focused on front-end development, and I enjoy working with HTML, CSS, JavaScript, and Bootstrap to create clean, user-friendly websites. <br>
+                                        But more than just writing code, I’m driven by the excitement of learning something new and continuously improving. <br>
+                                        Every project is a chance to grow, and I’m always open to challenges that push my abilities further. <br>
                                         
-                                        I’m here to connect with like-minded people who share a passion for tech and creativity. I’d love to exchange ideas, collaborate, or simply hear about your journey. Let’s build something great together!
+                                        I’m here to connect with like-minded people who share a passion for tech and creativity. <br>
+                                        I’d love to exchange ideas, collaborate, or simply hear about your journey. Let’s build something great together!
                                     </p>
                                 </div>
                             </div>
@@ -95,7 +98,7 @@
              <section class="skills">
                 <div class="container">
                     <div class="card-body">
-                        <h5 class="card-title"> My Skills...</h5>
+                        <h2 class="display-4 m-4 text-center"> My Skills</h5>
                         <div class="container mt-4">
                             <h6>HTML</h6>
                             <div class="progress mb-3">
@@ -161,6 +164,29 @@
                 </div>
             </section>
             <!-- End My Portfolio -->
+            <!-- Start Contact-Us Section -->
+            <section class="connect-us mt-4">
+                <div class="container">
+                    <form action="contact.php" method="POST">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </form>                       
+                </div>
+            </section>
+            <!-- End Contact-Us Section -->
         </div>
     </main>
     <!-- End main -->
@@ -170,10 +196,9 @@
         <img alt="Arrow to Top" onclick="animateToTop(event)" class="scrolimg" src="https://www.freeiconspng.com/uploads/arrow-icon-clip-art-file-down-arrow-icon-png-balin-icon-arrow-right--32.png">
     </div>
     <!-- End Back To Top Button -->
-    
-    <!-- Start Footer -->
 
     
+    <!-- Start Footer -->
     <h2 class="display-4 m-4 text-center text-light" id="footer">Footer</h2>
     <footer class="text-light text-center text-lg-start">
         <!-- Grid container -->

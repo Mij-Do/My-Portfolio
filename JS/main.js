@@ -31,7 +31,7 @@ typeText(); // Start the typing effect
 
 window.addEventListener('scroll', function() {
 const image = document.getElementById('myImage');
-if (window.scrollY < 50 || window.scrollY > 1000) {  // the value of hidden
+if (window.scrollY < 100 || window.scrollY > 1100) {  // the value of hidden
     image.style.opacity = 0;
 } else {
     image.style.opacity = 1;

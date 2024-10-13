@@ -132,7 +132,13 @@ transform: scale(1.2)
 /* End Arrow To Top */
 
 
+/* Start Sections main */
 
+main .container section {
+    margin: 100px 0;
+}
+
+/* End Sections main */
 
 
 
