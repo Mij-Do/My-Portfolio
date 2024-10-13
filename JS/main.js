@@ -1,7 +1,7 @@
 
 // script.js
 const typingText = document.querySelector('.typing-text');
-const words = ['a Developer.', 'a Designer.', 'a Problem Solver.'];
+const words = ['a Developer.', 'a Designer..', 'a Problem Solver..','Ahmed Samir'];
 let wordIndex = 0;
 let charIndex = 0;
 

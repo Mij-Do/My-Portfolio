@@ -1,105 +1,107 @@
-/* *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  body {
-    overflow-x: hidden; /* Prevent horizontal scroll */
-  }
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+overflow-x: hidden; /* Prevent horizontal scroll */
+}
 
 ::selection{
-    background-color: grey;
-    color: white;
+background-color: grey;
+color: white;
 }
 /* Start Nav */
 
 header .navbar{
-    background-color: black;
+background-color: black;
 }
 
 header button span{
-    border-radius: 5px;
+border-radius: 5px;
+}
+
+header .dropdown ul a:hover {
+background-color: gray;
+}
+
+main .container .about .container-fluid .child-about{
+background-color: #0d0f10;
 }
 
 /* End Nav */
 
 .image {
-    width: 70%;
-    height: auto;
-    transition: opacity 0.5s;  /* the effect time */
+width: 70%;
+height: auto;
+transition: opacity 0.5s;  /* the effect time */
 }
 
 /* Start progress bar */
 
 .card-body .container{
-    display: none;
+display: none;
 }
 
 .html {
-    animation: html forwards 1s;
-    animation-timing-function: ease-in;
+animation: html forwards 1s;
+animation-timing-function: ease-in;
 }
 .css {
-    animation: css forwards 1s;
-    animation-timing-function: ease-in;
+animation: css forwards 1s;
+animation-timing-function: ease-in;
 }
 .bootstrap {
-    animation: bootstrap forwards 1s;
-    animation-timing-function: ease-in;
+animation: bootstrap forwards 1s;
+animation-timing-function: ease-in;
 }
 .js {
-    animation: js forwards 1s;
-    animation-timing-function: ease-in;
+animation: js forwards 1s;
+animation-timing-function: ease-in;
 }
 
 
 
 @keyframes html {
-    0%{
-        background-color: red;
-    }
-    100%{
-        width: 98%;
-        background-color: yellow;
-    }
+0%{
+    background-color: red;
+}
+100%{
+    width: 98%;
+    background-color: yellowgreen;
+}
 }
 @keyframes css {
-    0%{
-        background-color: red;
-    }
-    100%{
-        width: 90%;
-        background-color: blue;
-    }
+0%{
+    background-color: red;
+}
+100%{
+    width: 90%;
+    background-color: blue;
+}
 }
 @keyframes bootstrap {
-    0%{
-        background-color: red;
-    }
-    100%{
-        width: 100%;
-        background-color: purple;
-    }
+0%{
+    background-color: red;
+}
+100%{
+    width: 100%;
+    background-color: purple;
+}
 }
 @keyframes js {
-    0%{
-        background-color: red;
-    }
-    79%{
-        background-color: yellowgreen;
-    }
-    100%{
-        width: 80%;
-        background-color: orange;
-    }
+0%{
+    background-color: red;
+}
+79%{
+    background-color: yellowgreen;
+}
+100%{
+    width: 80%;
+    background-color: orange;
+}
 }
 
 /* End progress bar */
@@ -108,22 +110,22 @@ header button span{
 /* Start Arrow To Top */
 
 .scrolimg{
-    width: 88px;
-    height: 79px;
+width: 88px;
+height: 79px;
 }
 .scroll{
-    width: 100px;
-    height: 80px;
-    transition: 0.2s;
-    z-index: 99;
-    position:fixed;
-    bottom:0px;
-    right:0px;
-    
+width: 100px;
+height: 80px;
+transition: 0.2s;
+z-index: 99;
+position:fixed;
+bottom:0px;
+right:0px;
+
 }
 .scroll:hover{
-    transform: scale(1.2)
-    
+transform: scale(1.2)
+
 }
 
 
@@ -139,66 +141,75 @@ header button span{
 /* Start Hero Styles */
 
 .hero {
-    position: relative;
-    height: 80vh; /* Smaller height to fit within the page */
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('https://source.unsplash.com/random/1600x900') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    padding: 20px;
-    margin-bottom: 50px;
-  }
-  
-  .hero-content {
-    z-index: 2;
-  }
-  
-  .hero-title {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-  }
-  
-  .hero-subtitle {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-  }
-  
-  .hero-buttons .btn {
-    padding: 10px 20px;
-    margin: 5px;
-    text-decoration: none;
-    border-radius: 25px;
-    transition: background-color 0.3s;
-  }
-  
-  .btn-primary {
-    background-color: #3498db;
-    color: white;
-  }
-  
-  .btn-primary:hover {
-    background-color: #2980b9;
-  }
-  
-  .btn-secondary {
-    background-color: #2ecc71;
-    color: white;
-  }
-  
-  .btn-secondary:hover {
-    background-color: #27ae60;
-  }
-  
-  /* Main Content Section */
-  #main-content {
-    padding: 50px;
-    background-color: #fff;
-  }
-  
-  #main-content h2 {
-    margin-bottom: 10px;
-    font-size: 2rem;
-  }
+position: relative;
+height: 80vh; /* Smaller height to fit within the page */
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url('https://source.unsplash.com/random/1600x900') no-repeat center center/cover;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: white;
+padding: 20px;
+margin-bottom: 50px;
+}
+
+.hero-content {
+z-index: 2;
+}
+
+.hero-title {
+font-size: 2.5rem;
+margin-bottom: 10px;
+}
+
+.hero-subtitle {
+font-size: 1.2rem;
+margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+padding: 10px 20px;
+margin: 5px;
+text-decoration: none;
+border-radius: 25px;
+transition: background-color 0.3s;
+}
+
+.btn-primary {
+background-color: #3498db;
+color: white;
+}
+
+.btn-primary:hover {
+background-color: #2980b9;
+}
+
+.btn-secondary {
+background-color: #2ecc71;
+color: white;
+}
+
+.btn-secondary:hover {
+background-color: #27ae60;
+}
+
+/* Main Content Section */
+#main-content {
+padding: 50px;
+background-color: #fff;
+}
+
+#main-content h2 {
+margin-bottom: 10px;
+font-size: 2rem;
+}
+
+
+/* Start Footer */
+footer{
+    width: 100%;
+    background-color: #0d0f10;
+}
+
+/* End Footer */
