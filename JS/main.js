@@ -40,3 +40,11 @@ if (window.scrollY < 100 || window.scrollY > 1100) {  // the value of hidden
 
 
 
+// Current Year
+
+let year = document.getElementById("Year");
+
+year.innerHTML = new Date().getFullYear();
+
+// end Current Year
+

@@ -140,6 +140,16 @@ main .container section {
 
 /* End Sections main */
 
+/* Start soft skills */
+
+.soft-skills ul li {
+    font-weight: bold;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* End soft skills */
+
 
 
 
